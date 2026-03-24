@@ -10,9 +10,9 @@ def update_motion_state():
     else:
         motion_state = "searching"
 
-import gripper_module
+import intake_module
 
-def coordinate_with_gripper():
-    # motion_module now also depends on gripper_module.gripper_state
-    return gripper_module.gripper_state
+def coordinate_with_intake():
+    # motion_module now also depends on intake_module.intake_state
+    return intake_module.intake_state
 
